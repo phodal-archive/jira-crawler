@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Jira Crawler",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Jira Crawler",
+    "description": "The description of the application"
+  }
+}
