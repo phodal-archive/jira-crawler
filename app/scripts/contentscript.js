@@ -1,3 +1,6 @@
-'use strict';
-
-console.log('\'Allo \'Allo! Content script');
+(function () {
+    "use strict";
+    chrome.extension.sendRequest({greeting: "hello"}, function (response) {
+        console.log(response.farewell);
+    });
+}());

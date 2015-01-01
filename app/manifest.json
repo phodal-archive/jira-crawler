@@ -10,7 +10,7 @@
   "default_locale": "en",
   "background": {
     "scripts": [
-      "scripts/chromereload.js",
+//      "scripts/chromereload.js",
       "scripts/background.js"
     ]
   },
@@ -33,7 +33,7 @@
         "styles/main.css"
       ],
       "js": [
-        "scripts/contentscript.js"
+        "scripts/lib/jquery.min.js","scripts/contentscript.js"
       ],
       "run_at": "document_end",
       "all_frames": false
